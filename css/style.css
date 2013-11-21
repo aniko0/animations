@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 /* basic styles */
@@ -62,14 +62,15 @@ h4{
 
 /*animated pens*/
 .animated-block{
-	width: 300px;
+	position: relative;
+	width: 500px;
+	height: 200px;
 	overflow: hidden;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	border-radius: 100px;
 }
 .round{
-	position: relative;
 	width: 200px;
 	height: 200px;
 	-webkit-border-radius: 50%;
