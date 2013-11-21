@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* basic styles */
+html, body {
+	height: 100%;
+    margin: 0;
+    padding: 0;
+	position: relative;
+}
+body,td,th,input,select,textarea{
+    font: normal 13px/1.4 'Open Sans', sans-serif;;
+    color: #3d4047;
+}
+:focus{
+	outline: none;
+}
+a{
+    color: #3d4047;
+    text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+a img{
+    border: none;
+}
+form{
+    margin: 0;
+    padding: 0;
+}
+p, blockquote, dl{
+    margin: 0;
+    padding: 0 0 12px 0;
+}
+form p{
+	padding: 0;
+}
+h1{
+	clear: both;
+	font: bold 48px/56px 'PT Sans Narrow', sans-serif;
+	text-align: center;
+}
+h1 a{
+	text-decoration: none;
+}
+h2{
+	font: bold 30px/36px 'PT Sans Narrow', sans-serif;	
+	margin: 0;
+}
+h3{
+	font: bold 24px/28px 'PT Sans Narrow', sans-serif;
+	margin: 0;
+}
+h4{
+	font: bold 21px/1 'PT Sans', sans-serif;
+	margin: 0;
+}
+.clear{
+	clear: both;
+	}
+
+/*animated pens*/
+.animated-block{
+	width: 300px;
+	overflow: hidden;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+.round{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #efeff4;
+}
+.pen{
+	position: absolute;
+	width: 294px;
+	background-image: url(../images/pens.png);
+	background-repeat: no-repeat;
+	left: -56px;
+}
+.pen1{
+	height: 26px;
+	top: 26px;	
+	background-position: 0 0;
+	-webkit-animation-delay:0.7s;
+	-moz-animation-delay:0.7s;
+	-ms-animation-delay:0.7s;
+	-o-animation-delay:0.7s;
+	animation-delay:0.7s;
+}
+.pen2{
+	height: 19px;
+	top: 72px;	
+	background-position: 0 -46px;
+	-webkit-animation-delay:0.8s;
+	-moz-animation-delay:0.8s;
+	-ms-animation-delay:0.8s;
+	-o-animation-delay:0.8s;
+	animation-delay:0.8s;
+}
+.pen3{
+	height: 19px;
+	top: 111px;	
+	background-position: 0 -85px;
+	-webkit-animation-delay:0.9s;
+	-moz-animation-delay:0.9s;
+	-ms-animation-delay:0.9s;
+	-o-animation-delay:0.9s;
+	animation-delay:0.9s;
+}
+.pen4{
+	height: 26px;
+	top: 148px;	
+	background-position: 0 -122px;
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	-ms-animation-delay:1s;
+	-o-animation-delay:1s;
+	animation-delay:1s;
+}
